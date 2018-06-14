@@ -1,0 +1,14 @@
+Package: mvls
+Type: Package
+Title: Missing Values in Longitudinal Studies
+Version: 0.1
+Author: Lorenzo Querci
+Maintainer: Lorenzo Querci <lorenzo.querci@studio.unibo.it>
+Description: It is a trend machine learning-based approach to impute missing values in longitudinal studies.
+License: CC BY-NC 
+Depends: R (>= 3.0.1)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Import: devtools::use_package("randomForestSRC","ggplot2","mice","zoo","reshape2")
+
